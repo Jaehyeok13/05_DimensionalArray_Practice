@@ -98,10 +98,10 @@ public class DimensionPractice {
 			
 			for(int j = 0; j < array[i].length; j++) {
 				num =  rd.nextInt(10) + 1;
-				if(i < 3 && j < 3) {
+				if(i < array.length-1 && j < array[i].length-1) {
 					array[i][j] =num;
 					column += num;
-				}else if(i < 3 && j == 3) {
+				}else if(i < array.length-1 && j == array[i].length-1) {
 					array[i][j] = column;
 				}
 				if(i == 3 ) {
