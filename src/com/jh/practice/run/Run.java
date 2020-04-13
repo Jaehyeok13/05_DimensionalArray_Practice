@@ -10,6 +10,7 @@ public class Run {
 		dp.practice2();
 		dp.practice3();
 		dp.practice4();
+		dp.practice5();
 
 	}
 
