@@ -307,7 +307,7 @@ public class DimensionPractice {
 		int column = sc.nextInt();
 		System.out.print("열 인덱스 입력 : ");
 		int row = sc.nextInt();
-		
+		// 배열의 널 값을 "" 초기화  한다.
 		for (int i = 0; i < array.length; i++) {
 			for (int j = 0; j < array[i].length; j++) {
 				if (i == 0 && j != 0) {
